@@ -56,17 +56,15 @@ randNxN(double *p)
  * y^{ab}[0:(L-1)] <- a^{ac} * x^{cb}[0:(L-1)]
  */
 void
-mulNxN(int L, double *y, double *a, double *x)
+mulNxN(int L, double *y, double *A, double *x)
 {
 #pragma omp parallel for
-  for(int il=0; il<L; il++) {
-    double *yl = &y[il*N*N];
-    double *xl = &x[il*N*N];
-    for(int i=0; i<N; i++) {
-      for(int j=0; j<N; j++) {
-	yl[NIJ(i,j)] = 0;
-	for(int k=0; k<N; k++) {
-	  yl[NIJ(i,j)] += a[NIJ(i,k)]*xl[NIJ(k,j)];
+  for(int i=0; i<L; i++) {
+    for(int a=0; a<N; a++) {
+      for(int b=0; b<N; b++) {
+	y[i*N*N + NIJ(a,b)] = 0;
+	for(int c=0; c<N; c++) {
+	  y[i*N*N + NIJ(a,b)] += A[NIJ(a,c)]*x[i*N*N + NIJ(c,b)];
 	}
       }
     }
@@ -131,7 +129,7 @@ main(int argc, char *argv[])
     tave /= (double)nreps;
     tvar /= (double)nreps;
     tvar = sqrt(tvar - tave*tave);
-    if(tvar < tave/25)
+    if(tvar < tave/15)
       break;
     nreps_inner = nreps_inner*2;    
   }
@@ -145,10 +143,6 @@ main(int argc, char *argv[])
      3) Susstained bandwidth (GBytes/sec)
      Note: keep as function of N
    */
-  double beta_fp = (2*N-1)*N*N*L/tave*1e-9;
-  double beta_io = (2*N*N)*L/tave*1e-9;
-  printf(" N = %2d, L = %12d, %4.2e ± %4.2e usec/call, perf. = %6.4e GFlop/sec, bw = %6.4e GBytes/sec\n",
-	 N, L, tave*1e6, tvar*1e6, beta_fp, beta_io);
   free(x);
   free(y);  
   return 0;

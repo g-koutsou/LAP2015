@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-O3 -std=gnu99 -fopenmp
+CFLAGS=-O3 -D_GNU_SOURCE -std=c99 -fopenmp
 LDFLAGS=
 LIBS=-lm -fopenmp
 N?=1

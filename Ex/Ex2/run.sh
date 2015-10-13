@@ -7,14 +7,15 @@ module unload parastation
 module load parastation/gcc
 
 cd $PBS_O_WORKDIR
-nrep=15
-L=$((512*1024))
+nrep=64
+LNN=$((8*1024*1024))
 
 LOGFILE=mxam.log
 rm -f $LOGFILE
-for nthr in 12 6 4; do
+for nthr in 12 8 4; do
     echo '# nthr = ' $nthr >> $LOGFILE
-    for N in $(seq 4 16) ; do
+    for N in $(seq 2 16) ; do
+        L=$(echo $LNN/$N/$N|bc) 
 	make clean
 	N=$N make
 	export OMP_NUM_THREADS=$nthr
