@@ -1,0 +1,13 @@
+ L =         1024, 1.86e+01 ± 6.30e-01 usec/call, perf. = 4.3971e-01 GFlop/sec, bw = 1.3191e+00 GBytes/sec
+ L =         2048, 1.62e+01 ± 4.30e-01 usec/call, perf. = 1.0133e+00 GFlop/sec, bw = 3.0398e+00 GBytes/sec
+ L =         4096, 1.65e+01 ± 6.54e-01 usec/call, perf. = 1.9919e+00 GFlop/sec, bw = 5.9756e+00 GBytes/sec
+ L =         8192, 1.79e+01 ± 3.61e-01 usec/call, perf. = 3.6587e+00 GFlop/sec, bw = 1.0976e+01 GBytes/sec
+ L =        16384, 2.02e+01 ± 4.60e-01 usec/call, perf. = 6.5029e+00 GFlop/sec, bw = 1.9509e+01 GBytes/sec
+ L =        32768, 2.73e+01 ± 8.34e-01 usec/call, perf. = 9.6052e+00 GFlop/sec, bw = 2.8816e+01 GBytes/sec
+ L =        65536, 4.33e+01 ± 6.65e-01 usec/call, perf. = 1.2119e+01 GFlop/sec, bw = 3.6356e+01 GBytes/sec
+ L =       131072, 5.14e+01 ± 7.70e-01 usec/call, perf. = 2.0388e+01 GFlop/sec, bw = 6.1165e+01 GBytes/sec
+ L =       262144, 1.35e+02 ± 7.41e-01 usec/call, perf. = 1.5534e+01 GFlop/sec, bw = 4.6603e+01 GBytes/sec
+ L =       524288, 1.90e+02 ± 8.81e-01 usec/call, perf. = 2.2022e+01 GFlop/sec, bw = 6.6066e+01 GBytes/sec
+ L =      1048576, 3.96e+02 ± 1.20e+00 usec/call, perf. = 2.1202e+01 GFlop/sec, bw = 6.3605e+01 GBytes/sec
+ L =      2097152, 2.14e+03 ± 8.35e+01 usec/call, perf. = 7.8265e+00 GFlop/sec, bw = 2.3480e+01 GBytes/sec
+ L =      4194304, 5.54e+03 ± 1.09e+01 usec/call, perf. = 6.0621e+00 GFlop/sec, bw = 1.8186e+01 GBytes/sec

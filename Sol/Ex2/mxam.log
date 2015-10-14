@@ -1,0 +1,54 @@
+# nthr =  12
+ N =  2, L =      2097152, 4.86e+03 ± 1.95e+01 usec/call, perf. = 5.1832e+00 GFlop/sec, bw = 3.4555e+00 GBytes/sec
+ N =  3, L =       932067, 5.05e+03 ± 1.32e+01 usec/call, perf. = 8.3108e+00 GFlop/sec, bw = 3.3243e+00 GBytes/sec
+ N =  4, L =       524288, 6.50e+03 ± 4.25e+01 usec/call, perf. = 9.0310e+00 GFlop/sec, bw = 2.5803e+00 GBytes/sec
+ N =  5, L =       335544, 4.84e+03 ± 1.03e+02 usec/call, perf. = 1.5603e+01 GFlop/sec, bw = 3.4674e+00 GBytes/sec
+ N =  6, L =       233016, 5.24e+03 ± 1.34e+01 usec/call, perf. = 1.7616e+01 GFlop/sec, bw = 3.2030e+00 GBytes/sec
+ N =  7, L =       171196, 5.90e+03 ± 6.44e+01 usec/call, perf. = 1.8481e+01 GFlop/sec, bw = 2.8432e+00 GBytes/sec
+ N =  8, L =       131072, 6.55e+03 ± 2.49e+01 usec/call, perf. = 1.9223e+01 GFlop/sec, bw = 2.5631e+00 GBytes/sec
+ N =  9, L =       103563, 6.81e+03 ± 6.11e+01 usec/call, perf. = 2.0949e+01 GFlop/sec, bw = 2.4646e+00 GBytes/sec
+ N = 10, L =        83886, 7.61e+03 ± 6.84e+01 usec/call, perf. = 2.0942e+01 GFlop/sec, bw = 2.2045e+00 GBytes/sec
+ N = 11, L =        69327, 8.31e+03 ± 5.76e+01 usec/call, perf. = 2.1197e+01 GFlop/sec, bw = 2.0188e+00 GBytes/sec
+ N = 12, L =        58254, 9.24e+03 ± 6.25e+01 usec/call, perf. = 2.0880e+01 GFlop/sec, bw = 1.8157e+00 GBytes/sec
+ N = 13, L =        49636, 1.01e+04 ± 9.56e+01 usec/call, perf. = 2.0821e+01 GFlop/sec, bw = 1.6656e+00 GBytes/sec
+ N = 14, L =        42799, 1.10e+04 ± 7.55e+01 usec/call, perf. = 2.0594e+01 GFlop/sec, bw = 1.5254e+00 GBytes/sec
+ N = 15, L =        37282, 1.18e+04 ± 6.29e+01 usec/call, perf. = 2.0534e+01 GFlop/sec, bw = 1.4161e+00 GBytes/sec
+ N = 16, L =        32768, 1.31e+04 ± 6.62e+01 usec/call, perf. = 1.9922e+01 GFlop/sec, bw = 1.2853e+00 GBytes/sec
+
+
+# nthr =  8
+ N =  2, L =      2097152, 6.97e+03 ± 2.72e+01 usec/call, perf. = 3.6126e+00 GFlop/sec, bw = 2.4084e+00 GBytes/sec
+ N =  3, L =       932067, 7.36e+03 ± 1.76e+01 usec/call, perf. = 5.6997e+00 GFlop/sec, bw = 2.2799e+00 GBytes/sec
+ N =  4, L =       524288, 9.80e+03 ± 4.30e+01 usec/call, perf. = 5.9902e+00 GFlop/sec, bw = 1.7115e+00 GBytes/sec
+ N =  5, L =       335544, 7.01e+03 ± 4.52e+01 usec/call, perf. = 1.0766e+01 GFlop/sec, bw = 2.3923e+00 GBytes/sec
+ N =  6, L =       233016, 7.75e+03 ± 4.62e+01 usec/call, perf. = 1.1905e+01 GFlop/sec, bw = 2.1646e+00 GBytes/sec
+ N =  7, L =       171196, 8.78e+03 ± 8.25e+01 usec/call, perf. = 1.2421e+01 GFlop/sec, bw = 1.9109e+00 GBytes/sec
+ N =  8, L =       131072, 9.77e+03 ± 7.67e+01 usec/call, perf. = 1.2876e+01 GFlop/sec, bw = 1.7168e+00 GBytes/sec
+ N =  9, L =       103563, 1.01e+04 ± 6.80e+01 usec/call, perf. = 1.4054e+01 GFlop/sec, bw = 1.6534e+00 GBytes/sec
+ N = 10, L =        83886, 1.13e+04 ± 6.92e+01 usec/call, perf. = 1.4158e+01 GFlop/sec, bw = 1.4904e+00 GBytes/sec
+ N = 11, L =        69327, 1.24e+04 ± 5.66e+01 usec/call, perf. = 1.4189e+01 GFlop/sec, bw = 1.3514e+00 GBytes/sec
+ N = 12, L =        58254, 1.37e+04 ± 6.42e+01 usec/call, perf. = 1.4093e+01 GFlop/sec, bw = 1.2255e+00 GBytes/sec
+ N = 13, L =        49636, 1.51e+04 ± 8.64e+01 usec/call, perf. = 1.3924e+01 GFlop/sec, bw = 1.1139e+00 GBytes/sec
+ N = 14, L =        42799, 1.63e+04 ± 3.36e+02 usec/call, perf. = 1.3853e+01 GFlop/sec, bw = 1.0262e+00 GBytes/sec
+ N = 15, L =        37282, 1.75e+04 ± 5.20e+02 usec/call, perf. = 1.3898e+01 GFlop/sec, bw = 9.5849e-01 GBytes/sec
+ N = 16, L =        32768, 1.92e+04 ± 6.40e+02 usec/call, perf. = 1.3554e+01 GFlop/sec, bw = 8.7445e-01 GBytes/sec
+
+
+# nthr =  4
+ N =  2, L =      2097152, 1.03e+04 ± 4.77e+01 usec/call, perf. = 2.4515e+00 GFlop/sec, bw = 1.6344e+00 GBytes/sec
+ N =  3, L =       932067, 1.41e+04 ± 2.52e+01 usec/call, perf. = 2.9847e+00 GFlop/sec, bw = 1.1939e+00 GBytes/sec
+ N =  4, L =       524288, 1.75e+04 ± 5.05e+01 usec/call, perf. = 3.3509e+00 GFlop/sec, bw = 9.5739e-01 GBytes/sec
+ N =  5, L =       335544, 1.35e+04 ± 1.64e+01 usec/call, perf. = 5.6104e+00 GFlop/sec, bw = 1.2467e+00 GBytes/sec
+ N =  6, L =       233016, 1.52e+04 ± 3.35e+02 usec/call, perf. = 6.0744e+00 GFlop/sec, bw = 1.1044e+00 GBytes/sec
+ N =  7, L =       171196, 1.71e+04 ± 5.92e+02 usec/call, perf. = 6.3874e+00 GFlop/sec, bw = 9.8268e-01 GBytes/sec
+ N =  8, L =       131072, 1.89e+04 ± 7.58e+02 usec/call, perf. = 6.6645e+00 GFlop/sec, bw = 8.8860e-01 GBytes/sec
+ N =  9, L =       103563, 1.96e+04 ± 8.19e+02 usec/call, perf. = 7.2847e+00 GFlop/sec, bw = 8.5702e-01 GBytes/sec
+ N = 10, L =        83886, 2.18e+04 ± 9.75e+02 usec/call, perf. = 7.3194e+00 GFlop/sec, bw = 7.7046e-01 GBytes/sec
+ N = 11, L =        69327, 2.37e+04 ± 1.09e+03 usec/call, perf. = 7.4270e+00 GFlop/sec, bw = 7.0734e-01 GBytes/sec
+ N = 12, L =        58254, 2.62e+04 ± 1.23e+03 usec/call, perf. = 7.3614e+00 GFlop/sec, bw = 6.4012e-01 GBytes/sec
+ N = 13, L =        49636, 2.86e+04 ± 1.35e+03 usec/call, perf. = 7.3451e+00 GFlop/sec, bw = 5.8760e-01 GBytes/sec
+ N = 14, L =        42799, 3.10e+04 ± 1.46e+03 usec/call, perf. = 7.2946e+00 GFlop/sec, bw = 5.4034e-01 GBytes/sec
+ N = 15, L =        37282, 3.34e+04 ± 1.55e+03 usec/call, perf. = 7.2909e+00 GFlop/sec, bw = 5.0282e-01 GBytes/sec
+ N = 16, L =        32768, 3.68e+04 ± 1.69e+03 usec/call, perf. = 7.0722e+00 GFlop/sec, bw = 4.5627e-01 GBytes/sec
+
+
