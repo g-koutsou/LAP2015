@@ -65,7 +65,7 @@ axpy(int L, _Complex float a, _Complex float *x, _Complex float *y)
        _mm_store_ps( );
        _mm_mul_ps( );
        _mm_add_ps( );
-       _mm_shuffle_ps(  ,  , 0b00011110);
+       _mm_shuffle_ps(  ,  , 0b10110001);
     */
   }
   

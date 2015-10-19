@@ -75,11 +75,11 @@ axpy(int L, _Complex float a, _Complex float *x, _Complex float *y)
 	 _mm_store_ps( );
 	 _mm_mul_ps( );
 	 _mm_add_ps( );
-	 _mm_shuffle_ps(  ,  , 0b01000100);
+	 _mm_shuffle_ps(  ,  , 0b10110001);
       */
       y0 = _mm_load_ps((float *)&y[i]);
       x0 = _mm_load_ps((float *)&x[i]);
-      x1 = _mm_shuffle_ps(x0, x0, 0b00011110);
+      x1 = _mm_shuffle_ps(x0, x0, 0b10110001);
       x1 = _mm_mul_ps(va_im, x1);
       x1 = _mm_add_ps(x1, y0);
       x0 = _mm_mul_ps(va_re, x0);
